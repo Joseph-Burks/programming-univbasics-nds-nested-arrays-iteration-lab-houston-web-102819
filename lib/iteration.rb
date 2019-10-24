@@ -2,7 +2,7 @@ def join_ingredients(src)
   pizza = []
   n = 0
   while n < src.length do
-    
+    inner = src[n]
     n += 1
   end
   p "I love #[inner[0] and #[inner[1] on my pizza"
