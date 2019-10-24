@@ -1,10 +1,5 @@
 def join_ingredients(src)
-  # Given an Array of 2-element Arrays ( [ [food1, food2], [food3, # food4]....[foodN, foodM]]):
-  #
-  # Build a new Array that contains strings where each pair of foods is
-  # inserted into this template:
-  #
-  p "I love #[] and (inner array element 1) on my pizza""
+  p "I love #[inner[0] and #[inner[1] on my pizza""
 end
 
 def find_greater_pair(src)
