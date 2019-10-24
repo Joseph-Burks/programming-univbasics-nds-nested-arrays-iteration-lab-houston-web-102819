@@ -13,7 +13,7 @@ def find_greater_pair(src)
   greater = []
   n = 0
   while n < src.length do
-    src[n][0] > src[n][1] ? greater << src[n][0] : greater << src[n][1]
+    greater << (src[n][0] > src[n][1] ? src[n][0] : src[n][1])
     n += 1
 end
 
