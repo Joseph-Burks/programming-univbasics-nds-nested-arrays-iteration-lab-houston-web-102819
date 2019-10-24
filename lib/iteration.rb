@@ -20,8 +20,8 @@ def find_greater_pair(src)
 end
 
 def total_even_pairs(src)
-  evens = []
+  total = 0
   n = 0
   while n < src.length do
-    evens 
+    if ()
 end
