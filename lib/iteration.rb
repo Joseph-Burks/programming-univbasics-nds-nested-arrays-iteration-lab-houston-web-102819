@@ -3,9 +3,10 @@ def join_ingredients(src)
   n = 0
   while n < src.length do
     inner = src[n]
+    pizza << "I love #[inner[0] and #[inner[1] on my pizza"
     n += 1
   end
-  p "I love #[inner[0] and #[inner[1] on my pizza"
+  p pizza
 end
 
 def find_greater_pair(src)
