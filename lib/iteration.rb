@@ -1,5 +1,11 @@
 def join_ingredients(src)
-  p "I love #[inner[0] and #[inner[1] on my pizza""
+  pizza = []
+  n = 0
+  while n < src.length do
+    
+    n += 1
+  end
+  p "I love #[inner[0] and #[inner[1] on my pizza"
 end
 
 def find_greater_pair(src)
