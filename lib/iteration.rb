@@ -15,6 +15,8 @@ def find_greater_pair(src)
   while n < src.length do
     greater << (src[n][0] > src[n][1] ? src[n][0] : src[n][1])
     n += 1
+  end
+  greater
 end
 
 def total_even_pairs(src)
